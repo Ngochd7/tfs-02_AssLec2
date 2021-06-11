@@ -1,4 +1,4 @@
-//Các thuật toán sắp xếp
+//Test các thuật toán sắp xếp
 package main
 
 import (
