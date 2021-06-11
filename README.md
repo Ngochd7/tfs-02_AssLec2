@@ -1,3 +1,4 @@
+```
 ├── file
 │   │── output.txt
 │   └── test.txt
@@ -17,4 +18,4 @@
 │   └── TestWriteToFile.go
 │── go.mod
 └── README.md
-
+```
