@@ -37,8 +37,8 @@ func WriteToFile(filename string, newcontent string) {
 
 	if err == nil {
 		//File tồn tại và mở thành công
-		_, err = fmt.Fprintln(file, "\n"+newcontent)
-		if err == nil {
+		_, err1 := fmt.Fprintln(file, "\n"+newcontent)
+		if err1 == nil {
 			fmt.Println("\nFile was found and content was written to file !")
 		} else {
 			fmt.Println("\nFile was found but can't write to newfile !")
