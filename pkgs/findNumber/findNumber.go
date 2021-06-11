@@ -3,7 +3,7 @@ package findNumber
 import (
 	f "CallPkg/pkgs/handleFile"
 )
-
+//tìm kiếm cách 1 
 func FindNumbyWay1(n int64, filename string) bool {
 	arr, success := f.ReadFile(filename)
 	if !success {
