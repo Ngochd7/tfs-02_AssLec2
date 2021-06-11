@@ -13,7 +13,7 @@ func checkPrime(n int64) bool {
 		return true
 	} else {
 		var i int64 = 3
-		for i < n/2 {
+		for i < n/3 {
 			if n%i == 0 {
 				return false
 			}
